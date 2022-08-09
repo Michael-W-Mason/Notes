@@ -78,3 +78,20 @@ There does exist an implicit data type called var however that breaks the static
 - The parameters passed in must be given a data type
 - void is the return type of our function. Void means that our function does not return anything at all
 
+### Namespace and using
+Namespaces are just a way to organize your code. Defining a namespace is as easy as this
+```cs
+namespace Code;
+// Or in older versions
+namespace Code{
+
+}
+```
+The code you have written can then be referenced by another file with the using keyword
+```cs
+using Code;
+```
+The most common case of using is the System
+```cs
+using System;
+```
